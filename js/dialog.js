@@ -14,6 +14,7 @@
 
   var openPopup = function () {
     userDialogElement.classList.remove('hidden');
+
     document.addEventListener('keydown', onPopupEscPress);
   };
 
